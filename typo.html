@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/typo.html">Typography</a></li>
+                <li><a href="/color.html">Color</a></li>
+                <li><a href="/button.html">Buttons</a></li>
+                <li><a href="/border.html">Borders</a></li>
+                <li><a href="/image.html">Images</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="abouth2">Typography</h2>
+            <p>Typography is the art and science of arranging and designing characters and letters in a way that is legible and visually appealing.</p>
+            <div class="fontselect" >
+                <h3>Lato</h3>
+                        <ul>
+                            <li>Excellent legibility.</li>
+                            <li>Modern and clean style.</li>
+                            <li>Versatility for different designs.</li>
+                        </ul>
+                </div>
+                <div class="fontstyle">
+                    <h3>Font Style</h3>
+                        <p id="regular">The quick brown fox jumps over the lazy dog.</p>
+                        <p id="bold">The quick brown fox jumps over the lazy dog.</p>
+                        <p id="italic">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+            <div class="examplestypo">
+                <h3>Headings</h3>
+                <h1 class="accordion-header" style="background-color: transparent;">H1 / Lato</h1>
+                    <div class="accordion-content">
+                        <p>Main page or section title.</p>
+                    </div>  
+                <h2 class="accordion-header" style="background-color: transparent;">H2 / Lato</h2>
+                    <div class="accordion-content">
+                        <p>Section titles.</p>
+                    </div> 
+                <h3 class="accordion-header" style="background-color: transparent;">H3 / Lato</h3>
+                    <div class="accordion-content">
+                        <p>Sub-section titles.</p>
+                    </div> 
+                <h4 class="accordion-header" style="background-color: transparent;">H4 / Lato</h4>
+                    <div class="accordion-content">
+                        <p>Sub-section titles (smaller).</p>
+                    </div> 
+                <h5 class="accordion-header" style="background-color: transparent;">H5 / Lato</h5>
+                    <div class="accordion-content">
+                        <p>Sub-section titles (even smaller).</p>
+                    </div> 
+                <h6 class="accordion-header" style="background-color: transparent;">H6 / Lato</h6>
+                    <div class="accordion-content">
+                        <p>Minor section titles.</p>
+                    </div> 
+                <p class="accordion-header" style="background-color: transparent;">p/Lato</p>
+                    <div class="accordion-content">
+                        <p>Regular paragraph text.</p>
+                    </div> 
+                <p class="accordion-header" class="subtitle" style="background-color: transparent;">SUBTITLE/LATO</p>
+                    <div class="accordion-content">
+                        <p>Secondary text that provides additional information or context to the main title.</p>
+                    </div> 
+                <p  class="accordion-header" class="caption" style="background-color: transparent;">Caption/Lato</p>
+                    <div class="accordion-content">
+                        <p>Short description or title placed near an image, graphic, table, or other media element.</p>
+                    </div> 
+            </div> 
+    </main>
+<script>
+$(document).ready(function() {
+  // Oculta todos los elementos .accordion-content al principio
+  $('.accordion-content').slideUp();
+
+  // Agrega un evento de clic a los encabezados
+  $('.accordion-header').click(function() {
+    // Encuentra el contenido asociado y lo muestra u oculta
+    $(this).next('.accordion-content').slideToggle();
+  });
+});
+</script>
+</body>
