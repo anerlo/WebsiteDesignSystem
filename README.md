@@ -14,7 +14,7 @@ This project was created as part of an assignment from my learning path with Cod
 
 ## Live Demo
 
-[Live Demo Link](https://anerlo.github.io/WebDesignSystem/)
+[Live Demo Link](https://anerlo.github.io/WebsiteDesignSystem/)
 
 ## Author
 
