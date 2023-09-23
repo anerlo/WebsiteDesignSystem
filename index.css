@@ -74,7 +74,7 @@ li {
 }
 .with-background::before {
     content: "";
-    background-image: url("/resources/images/Index.png");
+    background-image: url("resources/images/Index.png");
     opacity: 0.5;
     position: absolute;
     top: 0;
