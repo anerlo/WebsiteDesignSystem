@@ -4,7 +4,7 @@
 
 This project was created as part of an assignment from my learning path with Codecademy.
 
-![desktop](resources/images/webscreenshoot.png)
+![desktop](resources/images/webscreenshot.png)
 
 
 ## Built With
